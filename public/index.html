@@ -1,17 +1,43 @@
-<!DOCTYPE html>
+
 <html lang="">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+        <!-- CSS files -->
+        <link href="dist/libs/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
+        <link href="dist/css/tabler.min.css" rel="stylesheet"/>
+        <link href="dist/css/tabler-flags.min.css" rel="stylesheet"/>
+        <link href="dist/css/tabler-payments.min.css" rel="stylesheet"/>
+        <link href="dist/css/tabler-vendors.min.css" rel="stylesheet"/>
+        <link href="dist/css/demo.min.css" rel="stylesheet"/>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113467793-4"></script>
+        <!--15.01.2020 Tanimlandi dist/js/tabler.js  ve dist/js/tabler.min.js
+        <script src="dist/js/tabler.js"></script>
+        <script src="dist/js/tabler.min.js"></script>
+        <script src="/path/to/vue.js"></script>
+        <script src="/path/to/vue-router.js"></script>
+18.01.2020 Tanimlandi dist/js/tabler.js  ve dist/js/tabler.min.js
+ <link href="./dist/libs/selectize/dist/css/selectize.css" rel="stylesheet"/>
+ <link href="./dist/libs/flatpickr/dist/flatpickr.min.css" rel="stylesheet"/>
+ <link href="./dist/libs/nouislider/distribute/nouislider.min.css" rel="stylesheet"/>
+ <link href="./dist/css/tabler.min.css" rel="stylesheet"/>
+ <link href="./dist/css/tabler-flags.min.css" rel="stylesheet"/>
+ <link href="./dist/css/tabler-payments.min.css" rel="stylesheet"/>
+ <link href="./dist/css/tabler-vendors.min.css" rel="stylesheet"/>
+ <link href="./dist/css/demo.min.css" rel="stylesheet"/>-->
+
+
+
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+   <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <div id="app" class="page"></div>
     <!-- built files will be auto injected -->
   </body>
 </html>
+
